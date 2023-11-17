@@ -23,6 +23,7 @@
       // Crea la sesión si el usuario está logueado
       $_SESSION['loggedin'] = true;
       echo "<h2>¡Contraseña correcta!</h2>";
+      echo "<a href='privada.php'>Ir a página privada</a>";
     } else {
       echo "<h2>¡Contraseña incorrecta!</h2>";
     }
